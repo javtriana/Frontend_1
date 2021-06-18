@@ -9,14 +9,12 @@
 /*HEADER*/
 
 header {
-    background-image: url("/img/fondo.jpg");
+    
     background-position: center center;
 }
-/* 
-.abt{
-    background-image: url("../img/fondo.jpg");
-    background-position: center center;
-} */
+
+
+
 
 
 .cont-header {
