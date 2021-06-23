@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #222222;
+}
+
+.ofertas{
+    padding-left:150px;
+    color: white;
+    font-size: 12px;
+}
+
+.cont-links{
+    display: flex;
+    justify-content: space-around;
+    float:right;
+}
+
+.cont-links span{
+    display: flex;
+    justify-content: space-around;
+    float:right;
+    padding: 0 15px;
+}
+
+.espa{
+    padding-left: 63%; 
+    padding-right: 1%;
+    color: white;
+    font-size: 12px;
+}
+
+.argentina{
+    color: white;
+    font-size: 12px;
+}
+
+.header-nav{
+    background-color: #F0A83E;
+    color:white;
+    padding-top: 10px;
+    padding-bottom:  10px;
+}
+
+.logo{
+    padding-left: 50px;
+}
+
+
+main section img {
+    width: 100%;
+    position: relative; 
+    display: inline-block; 
+    text-align: center;
+}
+
+.text-banner{
+    position: absolute; 
+    top: 40%; 
+    left: 70%;
+    text-align: center;
+}
+
+.text-banner-1{
+    background-color: #FFFFFF; 
+    font-size: 30px;
+    border-width: 10px;
+    border-radius: 5px; 
+    border-style: solid; 
+    border-color: white;
+}
+
+.text-banner-2{
+    color: #3C2313;
+}
+
+.btn-banner{
+    background-color: #F0A83E; 
+    height: 49px; 
+    width: 141px; 
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+article .destacados h2{
+
+    color: #3C2313;
+}
+
+article .destacados p{
+
+    color: #666666;
+}
+
+
+.productos-card{
+    flex-direction: column; 
+    background-color: #FBFAF6;
+}
+
+.valor{
+    color: #F0A83E;
+}
+
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.btn-reset{
+    background-color: #8A8787; 
+    border-radius: 15px; 
+    width: 110px; 
+    height: 34px;
+    color: white;
+}
+
+.btn-send{
+    background-color: #F0A83E; 
+    border-radius: 15px; 
+    width: 110px; 
+    height: 34px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+
+.input{
+    background-color: #3C2313; 
+    border-radius: 15px; 
+    width: 350px; 
+    border: none;
+    margin-bottom: 20px;
+    height: 50px; 
+ }
+
+.inscripcion{
+    margin-right: 30%;
+}
+
+.mail{
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+}
+
+.botonFooter{
+    background-color: #3C2313;
+    border-radius: 15px;
+    width: 85px;
+    height: 34px;
+    color: #FFFFFF;
+}
+
+.localidad{
+    width: 179px;
+    height: 66px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.telefono{
+    width:181px; 
+    height:66px; 
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.email{
+    width: 259px; 
+    height: 66px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+.footer-inf{
+    display: flex; 
+    background-color: #242424; 
+    color: #FFFFFF; 
+    align-items: center; 
+    justify-content: center; 
+    height: 40px; 
+}
+
+.destacados{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.productos{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sub{
+    background-color: #F0A83E; 
+    color: #FFFFFF; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: #3C2313;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+button{
+    border: none;
+}
+
+input{
+    border: none;
+}
