@@ -48,7 +48,7 @@ nav {
 	height: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	background: #e5e5e5;
+	background: #E5E5E5;
 }
 
 .card1 {
@@ -65,7 +65,27 @@ nav {
 .card1 h2 {
 	position: absolute;
 	margin: 20px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	
+	color: #FC200C;
+
+
 }
+
+.card1 h2 span{
+	color: #ffffff;
+
+
+
+
+
+}
+
+
 
 .card1 img {
 	border-radius: 5px;
@@ -85,6 +105,14 @@ nav {
 .card2 .Podio {
 	text-align: center;
 	margin-top: 26px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	
+	color: #FC200C;
+
+
 }
 
 .container-pizza {
@@ -101,11 +129,26 @@ nav {
 	margin-bottom: 20px;
 }
 
+
+.container-pizza .list-pizza li{
+
+
+	font-style: normal;
+	margin: 10px 0;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	
+	
+	color: #222222;
+	
+}
+
+
 .container-pizza img {
 	width: 92px;
 	height: 129px;
 	background-position: center;
-	opacity: 0.5;
 	margin: 0 auto;
 }
 
