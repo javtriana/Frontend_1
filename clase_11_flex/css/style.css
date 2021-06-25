@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*===========HEADER===========*/
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: rgb(17, 17, 17);
+}
+
+.logo {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.lista {
+	width: 100%;
+	height: 100%;
+	margin-right: 50px;
+}
+
+.lista ul li {
+	display: inline-block;
+	float: right;
+	padding: 40px 10px;
+	color: rgb(255, 255, 255);
+}
+
+/*===========MAIN===========*/
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: #e5e5e5;
+}
+
+.card1 {
+	position: relative;
+	width: 490px;
+	height: 350px;
+	margin: 60px 0;
+	margin-left: 20px;
+	margin-right: 5px;
+	background-position: center;
+	border-radius: 25px;
+}
+
+.card1 h2 {
+	position: absolute;
+	margin: 20px;
+}
+
+.card1 img {
+	border-radius: 5px;
+}
+
+.card2 {
+	width: 490px;
+	height: 350px;
+	margin: 60px 0;
+	margin-right: 20px;
+	margin-left: 5px;
+	background-position: center;
+	background: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+
+.card2 .Podio {
+	text-align: center;
+	margin-top: 26px;
+}
+
+.container-pizza {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+.container-pizza .list-pizza {
+	margin: 0 auto;
+}
+
+.container-pizza .list-pizza .Pizzas {
+	margin-bottom: 20px;
+}
+
+.container-pizza img {
+	width: 92px;
+	height: 129px;
+	background-position: center;
+	opacity: 0.5;
+	margin: 0 auto;
+}
+
+/*===========FOOOTER===========*/
+
+.cont-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: #111111;
+	height: 150px;
+}
+
+.cont-footer .cont-list {
+	margin-top: 10px;
+	margin-left: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.cont-footer .cont-list li{
+list-style-type: none;
+margin: 10px 0;
+}
+
+
+
+
+.cont-footer .logo-foot {
+	margin-top: 35px;
+	margin-right: 50px;
+}
