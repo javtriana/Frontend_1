@@ -23,15 +23,71 @@
   right: 40px;
   top: 17px;
 }
-.contenedor {
-  background-image: url("./img/bowl-y-huesitos.png");
-  height: 440px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+
+.imagen-principal {
+	background-image: url("/img/bowl-y-huesitos.png");
+	height: 409px;
+	width: 100%;
+	background-size: cover;
 }
+
+.imagen-principal .bienvenida1 {
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	position: relative;
+}
+.caja1 {
+	position: absolute;
+	right: 12px;
+	height: 409px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.bienvenida1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #3c2313;
+	margin-bottom: 12px;
+}
+.bienvenida2 {
+	color: #3c2313;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 12px;
+}
+.imagen-principal .boton1 {
+	background-color: #f0a83e;
+	border-radius: 5px;
+	width: 141px;
+	height: 49px;
+	cursor: pointer;
+}
+.boton1 {
+	color: #ffffff;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
 .bienvenida {
   background: #ffffff;
   font-style: normal;
