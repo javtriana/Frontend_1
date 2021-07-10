@@ -24,7 +24,7 @@
   top: 17px;
 }
 .contenedor {
-  background-image: url("img/bowl-background.png");
+  background-image: url("../img/bowl-background.png");
   height: 440px;
   display: flex;
   flex-direction: column;
@@ -298,7 +298,7 @@ footer p {
     top: 19px;
   }
   .contenedor {
-    background-image: url("img/bowl-y-huesitos.png");
+    background-image: url("../img/bowl-y-huesitos.png");
     height: 409px;
   }
   .contenedor2 {
